@@ -29,26 +29,26 @@ body {
 }
 
 
-.introduction {
+div.introduction {
     height: 840px;
     display: flex;
     flex-direction: row;
     z-index: 1;
 }
 
-header.intro {
+div.introduction header.intro {
     display: flex;
     flex-direction: row;
-    z-index: 5;
     position: absolute;
     top: 0;
     left: 0;
     height: 177px;
     width: 100%;
     margin-top: 27px;
+    z-index: 10;
 }
 
-.header-menu-item {
+div.introduction .header-menu-item {
     display: inline-flex;
     height: 45px;
     align-items: center;
@@ -56,16 +56,16 @@ header.intro {
     padding-top: 11px;
 }
 
-.header-menu-link {
+div.introduction .header-menu-link {
     color: #22356F;
     font-size: 14px;
 }
 
-.header-menu-item:hover {
+div.introduction .header-menu-item:hover {
     border-bottom: 1px solid #22356F;
 }
 
-.logo {
+div.introduction .logo {
     display: inline-flex;
     font-size: 24px;
     color: #62D0DF;
@@ -74,12 +74,12 @@ header.intro {
     width: 93px;
 }
 
-.header-logo {
+div.introduction .header-logo {
     margin-top: 27px;
     margin-left: 179px;
 }
 
-.menu {
+div.introduction .menu {
     display: inline-flex;
     flex-direction: row;
     width: 49.2%;
@@ -90,18 +90,18 @@ header.intro {
     min-width: 400px;
 }
 
-.header-menu {
+div.introduction .header-menu {
     display: inline-flex;
     width: 233px;
     justify-content: space-between;
 }
 
-a {
+div.introduction a {
     text-decoration: none;
     color: black;
 }
 
-.contact-button {
+div.introduction .contact-button {
     display: inline-flex;
     width: 150px;
     height: 50px;
@@ -113,20 +113,22 @@ a {
     text-transform: uppercase;
 }
 
-.left-column {
+div.introduction .left-column {
     display: flex;
     box-sizing: border-box;
     height: 840px;
     width: 77.6%;
     background-color: #F4F9E2;
     padding-top: 241px;
+    overflow: visible;
 }
 
-article.intro {
+div.introduction article.intro {
     margin-left: 179px;
+    z-index: 7;
 }
 
-h1 {
+div.introduction h1 {
     display: block;
     width: 484px;
     height: 167px;
@@ -136,20 +138,14 @@ h1 {
     font-weight: bold;
 }
 
-.blank {
+div.introduction .blank {
     display: flex;
     background-color: #ffffff   ;
     width: 23.4%;
 }
 
 
-.photo-container {
-    display: inline-flex;
-    position: absolute;
-    top: 90px;
-    left: 790px;
-    z-index: 2;
-}
+
 
 
 
@@ -163,35 +159,36 @@ h1 {
 .photo.back {
     z-index: 2;
     background-color: #EDFDFF;
-    top: -70px;
-    left: -60px;
+    top: 20px;
+    left: 0.508%;
     transform: rotate(-60deg);
 }
 
 .photo.decoration {
     z-index: 3;
     transform: rotate(160deg);
-    top: 10px;
-    left: -40px;
+    top: 100px;
+    left: 0.5219%;
     background-color: violet;
 }
 
-article.intro {
+
+div.introduction article.intro {
     width: 469px;
 }
 
-p.intro {
+div.introduction p.intro {
     margin-top: 19px;
     font-size: 24px;
     line-height: 42px;
     color: #22356F;
 }
 
-.intro-logo {
+div.introduction .intro-logo {
     height: 64px;
 }
 
-.who-button {
+div.introduction .who-button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +200,7 @@ p.intro {
     margin-top: 63px;
 }
 
-.what-button {
+div.introduction .what-button {
     display: inline-flex;
     align-items: center;
     width: 150;
@@ -211,4 +208,12 @@ p.intro {
     color: #F9B640;
     text-transform: uppercase;
     margin-left: 38px;
+}
+
+div.introduction .who-button > a {
+    color: white;
+}
+
+div.introduction .what-button > a {
+    color: #FAB63E;
 }
