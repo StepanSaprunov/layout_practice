@@ -1,30 +1,45 @@
 @font-face {
-    font-family: Larsseit;
-    src: url(/fonts/Larsseit.woff2);
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit.eot');
+    src: url('../fonts/Larsseit.eot?iefix') format('eot'),
+        url('../fonts/Larsseit.woff') format('woff'),
+        url('../fonts/Larsseit.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-/*.blank {
-    background-color: #6e1919;
-    width: 22.4%;
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit-Bold.eot');
+    src: url('../fonts/Larsseit-Bold.eot?iefix') format('eot'),
+        url('../fonts/Larsseit-Bold.woff2') format('woff2'),
+        url('../fonts/Larsseit-Bold.woff') format('woff'),
+        url('../fonts/Larsseit-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
-article.intro {
-    width: 77.6%;
-    background-color: #F4F9E2;
+
+
+body {
+    font-family: 'Larsseit';
+    font-weight: normal;
+    font-style: normal;
+    overflow: hidden;
 }
-*/
+
+
 .introduction {
     height: 840px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     z-index: 1;
-    font-family: Larsseit;
 }
 
 header.intro {
     display: flex;
     flex-direction: row;
-    z-index: 2;
+    z-index: 5;
     position: absolute;
     top: 0;
     left: 0;
@@ -67,10 +82,12 @@ header.intro {
 .menu {
     display: inline-flex;
     flex-direction: row;
-    width: 708px;
+    width: 49.2%;
     height: 50px;
     justify-content: space-between;
-    margin-left: 335px;
+    margin-right: 128px;
+    margin-left: auto;
+    min-width: 400px;
 }
 
 .header-menu {
@@ -93,4 +110,69 @@ a {
     justify-content: center;
     align-items: center;
     color: white;
+    text-transform: uppercase;
 }
+
+.left-column {
+    display: flex;
+    box-sizing: border-box;
+    height: 840px;
+    width: 77.6%;
+    background-color: #F4F9E2;
+    padding-top: 241px;
+}
+
+article.intro {
+    margin-left: 179px;
+}
+
+h1 {
+    display: block;
+    width: 484px;
+    font-size: 48px;
+    color: #22356F;
+    margin-top: 125px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blank {
+    display: flex;
+    background-color: #ffffff   ;
+    width: 23.4%;
+}
+
+
+.photo-container {
+    display: inline-flex;
+    position: absolute;
+    top: 90px;
+    left: 790px;
+    z-index: 2;
+}
+
+
+
+.photo {
+    width: 808px;
+    height: 544px;
+    border-radius: 312px;
+    position: absolute;
+}
+
+.photo.back {
+    z-index: 2;
+    background-color: #EDFDFF;
+    top: -70px;
+    left: -60px;
+    transform: rotate(-60deg);
+}
+
+.photo.decoration {
+    z-index: 3;
+    transform: rotate(160deg);
+    top: 10px;
+    left: -40px;
+    background-color: violet;
+}
+
