@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Larsseit;
+    src: url(/fonts/Larsseit.woff2);
+}
+
+/*.blank {
+    background-color: #6e1919;
+    width: 22.4%;
+}
+
+article.intro {
+    width: 77.6%;
+    background-color: #F4F9E2;
+}
+*/
+.introduction {
+    height: 840px;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 1;
+    font-family: Larsseit;
+}
+
+header.intro {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 177px;
+    width: 100%;
+    margin-top: 27px;
+}
+
+.header-menu-item {
+    display: inline-flex;
+    height: 45px;
+    align-items: center;
+    padding: 0px 5px;
+    padding-top: 11px;
+}
+
+.header-menu-link {
+    color: #22356F;
+    font-size: 14px;
+}
+
+.header-menu-item:hover {
+    border-bottom: 1px solid #22356F;
+}
+
+.logo {
+    display: inline-flex;
+    font-size: 24px;
+    color: #62D0DF;
+    letter-spacing: -0.035em;
+    height: 27px;
+    width: 93px;
+}
+
+.header-logo {
+    margin-top: 27px;
+    margin-left: 179px;
+}
+
+.menu {
+    display: inline-flex;
+    flex-direction: row;
+    width: 708px;
+    height: 50px;
+    justify-content: space-between;
+    margin-left: 335px;
+}
+
+.header-menu {
+    display: inline-flex;
+    width: 233px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-button {
+    display: inline-flex;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #62D0DF;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
