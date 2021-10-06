@@ -28,6 +28,25 @@ body {
     overflow: hidden;
 }
 
+.placeholder1 {
+    display: inline-flex;
+    width: 12.4565%;
+}
+
+.placeholder2 {
+    display: inline-flex;
+    width: 23.2428%;
+}
+
+.placeholder3 {
+    display: inline-flex;
+    width: 22.2686%;
+}
+
+.placeholder4 {
+    display: inline-flex;
+    width: 8.9074%;
+}
 
 div.introduction {
     height: 840px;
@@ -76,24 +95,20 @@ div.introduction .logo {
 
 div.introduction .header-logo {
     margin-top: 27px;
-    margin-left: 179px;
 }
 
 div.introduction .menu {
     display: inline-flex;
     flex-direction: row;
-    width: 49.2%;
     height: 50px;
     justify-content: space-between;
-    margin-right: 128px;
-    margin-left: auto;
-    min-width: 400px;
 }
 
 div.introduction .header-menu {
     display: inline-flex;
     width: 233px;
     justify-content: space-between;
+    
 }
 
 div.introduction a {
@@ -111,6 +126,7 @@ div.introduction .contact-button {
     align-items: center;
     color: white;
     text-transform: uppercase;
+    min-width: 150px;
 }
 
 div.introduction .left-column {
@@ -124,7 +140,9 @@ div.introduction .left-column {
 }
 
 div.introduction article.intro {
-    margin-left: 179px;
+    margin-left: 16.2137%;
+    background-color: #F4F9E2;
+    border-radius: 50px;
     z-index: 7;
 }
 
