@@ -1,0 +1,47 @@
+.why-block {
+    display: flex;
+    height: 607px;
+    background-color: #62D0DF;
+    justify-content: space-between;
+    font-family: "Larsseit";
+}
+
+
+.why-article {
+    display: flex;
+    flex-direction: column;
+    height: 361px;
+    width: 555px;
+    margin-top: 151px;
+    margin-bottom: 95px;
+    margin-left: 12.38%;
+}
+
+.why-article__headline {
+    display: inline-flex;
+    color: white;
+    font-size: 36px;
+    line-height: 28px;
+}
+
+.why-article__text {
+    overflow-wrap: break-word;
+    width: 555px;
+    margin-top: 75px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.why-article__text_bold {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.why-photo {
+    height: auto;
+    width: 36.53%;
+    background-image: url("../img/why-block-photo.jpg");
+    background-size: cover;
+}

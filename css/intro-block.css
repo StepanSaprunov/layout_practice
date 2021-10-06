@@ -19,13 +19,23 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit-Light.eot');
+    src: url('../fonts/Larsseit-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Larsseit-Light.woff2') format('woff2'),
+        url('../fonts/Larsseit-Light.woff') format('woff'),
+        url('../fonts/Larsseit-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
 
 
 body {
     font-family: 'Larsseit';
     font-weight: normal;
     font-style: normal;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .placeholder1 {
