@@ -1,0 +1,41 @@
+.nutriton-facts-block {
+    margin-top: 22px;  
+}
+
+.nutriton-facts-block .collection {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.nutriton-facts-block .collection .row {
+    display: inline-flex;
+}
+
+.panel {
+    width: 33.3333333%;
+    height: 240px;
+}
+
+.panel .title {
+    font-family: Larsseit;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #22356F;
+    margin-left: 21.875%;
+    margin-top: 55px;
+}
+
+.panel .description {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #22356F80;
+    margin-left: 21.875%;
+    margin-right: 16.041%;
+    margin-top: 28px;
+}

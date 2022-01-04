@@ -1,0 +1,68 @@
+.contact-us-block {
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+}
+
+.contact-us-block .contact-us-decription {
+    display: flex;
+    width: 66.6666%;
+    flex-direction: column;
+    height: 100%;
+    background: #22356F;
+}
+
+.contact-us-block .contact-us-decription .upper-headline {
+    margin-top: 103px;
+    margin-left: 10.937%;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+.contact-us-block .contact-us-decription .headline{
+    margin-top: 230px;
+    margin-left: 10.937%;
+    font-family: Larsseit;
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.contact-us-block .contact-us-decription .description-contact-us {
+    margin-top: 75px;
+    margin-left: 10.937%;
+    margin-right: 20.93%;
+    font-family: Larsseit;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+
+    color: #FFFFFF;
+}
+
+.contact-us-block .contact-us-decription .get-help {
+    margin-top: 95px;
+    margin-left: 10.937%;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #62D0DF;
+}
+
+.contact-us-block .photo-contact-us{
+    width: 33.3333%;
+    height: 100%;
+    background-image: url("../img/contact-us.png");
+    background-size: cover;
+}
+

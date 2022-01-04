@@ -1,0 +1,38 @@
+.info {
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+    width: 100%;
+}
+
+.info .photo-info {
+    display: inline-flex;
+    background-image: url("../img/info.png");
+    background-size: cover;
+    width: 39.58%;
+}
+
+.info .contacts {
+    display: inline-flex;
+    flex-direction: row;
+    width: 60.42%;
+}
+
+.info .contacts .panel {
+    margin-top: 20px;
+}
+
+.info .contacts .panel .description {
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background: #62D0DF;
+    height: 80px;
+}
+
+footer p {
+    margin: auto 14%;
+}

@@ -1,0 +1,92 @@
+.help-with-block {
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.help-with-block h5 {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #22356F80;
+
+}
+
+.help-with-block .help-with-collection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.help-block {
+    display: flex;
+    width: 33.3333%;
+    height: 480px;
+    justify-content: center;
+}
+
+.help-block .help-block__text {
+    width: 70%;
+    border-top: solid white 2px;
+    margin-top: 72px;
+    font-family: Larsseit;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: white;
+    padding-top: 26px;
+}
+
+.help-block_pink {
+    background: #FFE2DE;
+}
+
+.help-block_green {
+    background: #C4E769;
+}
+
+.help-block_cyan {
+    background: #62D0DF;
+}
+
+.help-block_blue {
+    background: #0052C1;
+}
+
+.help-block_small {
+    width: 25%;
+    height: 360px;
+}
+
+.help-with-collection-large {
+    margin-top: 120px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.help-with-collection-large .row {
+    display: inline-flex;
+}
+
+.help-block_dark-blue {
+    background: #22356F;
+}
+
+.help-block_nutrition {
+    background-image: url("../img/nutrition.png");
+    background-size: cover;
+}
+
+.help-block_light-violet {
+    background: #DEE1FF;
+}
+
+.help-block_violet {
+    background: #8F00FF;
+}
